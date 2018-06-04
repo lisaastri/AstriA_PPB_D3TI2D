@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        tools:context=".SecondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+    <LinearLayout
+        android:id="@+id/lytabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+    <ImageButton
+        android:src="@drawable/tentang"
+        android:id="@+id/btniabout"
+        android:padding="11dp"
+        android:onClick="onClick"
+        android:scaleType="centerInside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lytlogout"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:layout_below="@id/lytabout"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:src="@drawable/logout"
+                android:id="@+id/btnilogout"
+                android:padding="11dp"
+                android:scaleType="centerInside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

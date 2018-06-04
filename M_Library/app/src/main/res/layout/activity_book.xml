@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/buku1"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Analisa Perancangan Sistem Session"
+                android:onClick="btnKlik"/>
+            <Button
+                android:id="@+id/buku2"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="ANALISIS dan DESAIN SISTEM INFORMASI"
+                android:layout_below="@id/buku1"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku3"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Arsitektur Sistem Komputer"
+                android:layout_below="@id/buku2"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku4"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Bagan Terstruktur (Structured Chart)"
+                android:layout_below="@id/buku3"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku5"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Dasar-dasar UML"
+                android:layout_below="@id/buku4"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku6"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Datamining"
+                android:layout_below="@id/buku5"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku7"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Diagram Entity-Relationship"
+                android:layout_below="@id/buku6"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku8"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="E-Marketplaces"
+                android:layout_below="@id/buku7"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku9"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Electronic Commerce"
+                android:layout_below="@id/buku8"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku10"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="ENTITY RELATIONSHIP DIAGRAM"
+                android:layout_below="@id/buku9"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku11"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Estimation for Software Projects"
+                android:layout_below="@id/buku10"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku12"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Fungsi Transenden"
+                android:layout_below="@id/buku11"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku13"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Integral"
+                android:layout_below="@id/buku12"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku14"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="KAMUS DATA"
+                android:layout_below="@id/buku13"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku15"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Keamanan Sistem dan Data"
+                android:layout_below="@id/buku14"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku16"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Komunikasi Data dan Jaringan Komputer"
+                android:layout_below="@id/buku15"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku17"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Konsep Dasar Sistem Informasi"
+                android:layout_below="@id/buku16"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku18"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Konsep Sistem Informasi Korporasi"
+                android:layout_below="@id/buku17"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku19"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Limit dan Kekontinuan"
+                android:layout_below="@id/buku18"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku20"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Logika Informatika"
+                android:layout_below="@id/buku19"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku21"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Matriks dan Operasinya"
+                android:layout_below="@id/buku20"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku22"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Modul dan Jurnal Praktek Data Mining"
+                android:layout_below="@id/buku21"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku23"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="PEMETAAN ER KE RELASIONAL"
+                android:layout_below="@id/buku22"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku24"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Pemodelan Sistem Perangkat Lunak"
+                android:layout_below="@id/buku23"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku25"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Pemrograman Bahasa Assembly"
+                android:layout_below="@id/buku24"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku26"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Pengenalan Unified Modeling Language(UML)"
+                android:layout_below="@id/buku25"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku27"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Perancangan Sistem Menggunakan UML"
+                android:layout_below="@id/buku26"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku28"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Peranan Sistem Informasi"
+                android:layout_below="@id/buku27"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku29"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Personil Pengembangan Sistem Informasi"
+                android:layout_below="@id/buku28"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku30"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Process and Project Metrics"
+                android:layout_below="@id/buku29"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku31"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Project Scheduling and Tracking"
+                android:layout_below="@id/buku30"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku32"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Sistem Bilangan Riil"
+                android:layout_below="@id/buku31"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku33"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Sistem Informasi Berbasis Komputer"
+                android:layout_below="@id/buku32"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku34"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Sistem Informasi dalam Organisasi"
+                android:layout_below="@id/buku33"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku35"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="SISTEM PERSAMAAN LINIER"
+                android:layout_below="@id/buku34"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku36"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Software Engineering"
+                android:layout_below="@id/buku35"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku37"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Strukturisasi Kebutuhan Sistem"
+                android:layout_below="@id/buku36"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku38"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Teknik Pengintegralan"
+                android:layout_below="@id/buku37"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku39"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Terminologi Interaksi Manusia dan Komputer"
+                android:layout_below="@id/buku38"
+                android:onClick="btnClick5"/>
+            <Button
+                android:id="@+id/buku40"
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Turunan"
+                android:layout_below="@id/buku39"
+                android:onClick="btnClick5"/>
+        </LinearLayout>
+</RelativeLayout>
+</ScrollView>

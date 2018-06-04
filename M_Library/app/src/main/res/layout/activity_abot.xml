@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        tools:context=".Abot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layoutt"
+        android:padding="25dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/teks1"
+            android:padding="25dp"
+            android:layout_below="@id/layoutt"
+            android:textAlignment="center"
+            android:text="Aplikasi m-Library ini dibuat sebagai media peminjaman buku di perpustakaan kampus
+secara online, serta memudahkan kita unuk melihat daftar buku yang ada di perpustakaan tanpa harus datang
+dan mencari di perpustakaan satu persatu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/teks2"
+            android:layout_below="@id/teks1"
+            android:text="Kritik dan Saran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/teks3"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_below="@id/teks2"
+            android:text="Alisah.astri@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>
